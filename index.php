@@ -65,7 +65,7 @@ function listNumbers(int $begin, int $end){
 	$result = [];
     for($i=2; $i>=$end; $i++){
        
-        var_dump($result)
+        var_dump($result);
         $result[] += $i;
         return $result;
     }
